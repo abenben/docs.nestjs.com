@@ -18,12 +18,12 @@ export class MenuComponent implements OnInit {
   isSidebarOpened = true;
   readonly items = [
     {
-      title: 'Introduction',
+      title: 'はじめに',
       isOpened: false,
       path: '/',
     },
     {
-      title: 'Overview',
+      title: '概要',
       isOpened: true,
       children: [
         { title: 'First steps', path: '/first-steps' },
